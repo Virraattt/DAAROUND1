@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f2f5, #ffffff);
+    color: #333;
+}
+
+header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.intro, .submission, .social-links {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.intro:hover, .submission:hover, .social-links:hover {
+    transform: scale(1.02);
+}
+
+h2, h3 {
+    color: #4A90E2;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Social Media Buttons */
+.social-btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.insta-btn {
+    background-color: #C13584;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.social-btn:hover {
+    opacity: 0.85;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
